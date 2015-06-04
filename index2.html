@@ -12,7 +12,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/half-slider.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -22,7 +23,7 @@
 
 <body>
     <!-- Navigation -->
-    <nav style="background-color:green" class="navbar navbar-inverse navcar-custom navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navcar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -32,7 +33,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="#logo"></a>
+                <!--<a class="navbar-brand" href="index2.html"><img src="img/logobrasileirao.png"></a>-->
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,28 +78,30 @@
         <div class="carousel-inner">
             <div class="item active">
                 <!-- Set the first background image using inline CSS below. -->
-                <div class="fill"><img class="fill" src="img/slide/gramado.jpg"></div>
+                <div class="fill"><img class="fill" src="img/slide/estadio.jpg"></div>
                 <div class="carousel-caption">
-                    <h2>O primeiro estádio brasileiro, na verdade, não era um estádio...</h2>
-                    <p>Sim, é isso mesmo. O primeiro estádio brasileiro foi o Velódromo de São Paulo, que, originalmente, desde 1875 sediava competições ciclísticas. Para abrigar um jogo entre o Paulistano e o São Paulo Athletic, uma familia tradicional paulistana resolveu construir arquibancadas em torno dele, em 1902.</p>
+                    <h2 id="slide-text">O primeiro estádio brasileiro, na verdade, não era um estádio...</h2>
+                    <p id="slide-text">Sim, é isso mesmo. O primeiro estádio brasileiro foi o Velódromo de São Paulo, que, originalmente, desde 1875 sediava competições ciclísticas. Para abrigar um jogo entre o Paulistano e o São Paulo Athletic, uma familia tradicional paulistana resolveu construir arquibancadas em torno dele, em 1902.</p>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the second background image using inline CSS below. -->
                 <div class="fill"><img class="fill" src="img/slide/Society.jpg"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 2</h2>
+                    <h2 id="slide-text">Quem apelidou o Palmeiras de ‘porco’ foi o rival Corinthians</h2>
+                    <p id="slide-text">E o pior é que é verdade. Em 1969, dois jogadores do Timão faleceram e o clube teve de pedir para a Federação Paulista a inscrição de mais dois atletas para a continuidade do campeonato daquele ano. O Palmeiras, contudo, foi o unico time que se opôs ao pedido corinthiano. Para protestar contra a ‘sujeira’ palmeirense, a Fiel soltou um porco no Morumbi e gritou em provocação “da-lhe porco”. Em 1986, a torcida do Verdão sucumbiu e acabou aceitando a provocação como símbolo, mascote e coro da equipe.</p>
                 </div>
             </div>
             <div class="item">
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill" style="background-image:url('http://placehold.it/1900x1080&text=Slide Three');"></div>
                 <div class="carousel-caption">
-                    <h2>Caption 3</h2>
+                    <h2>Brasileirão: o maior e o menor público</h2>
+                    <p>Se o seu palpite para o menor público é algum jogo do São Caetano, voce errou. Em 1997, no Rio Grande do Sul, Juventude e Portuguesa passaram pela vergonha de jogar no estádio Olímpico para apenas 55 torcedores, enquanto 155.523 flamenguistas e santistas tiveram a oportunidade de acompanhar a decisao do Brasileirao de 1983, disputada pelas duas equipes no Maracanã: o maior publico do campeonato nacional.</p>
                 </div>
             </div>
         </div>
-        <div class="logo">Você sabia...</div>
+        <div class="logo" id="slide-text">Você sabia...</div>
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
@@ -112,387 +115,51 @@
     <div class="container">
         <div class="col-sm-10 col-sm-offset-1">
             <div class="page-header text-center">
-                <h1>Since 1923</h1>
+                <h1>Campeonato Brasileiro de Futebol</h1>
+                <p class="lead text-justify">Mais conhecido como Brasileirão, o principal torneio entre clubes do futebol brasileiro chega a sua 59ª edição. Disputado anualmente desde 1959, o campeonato já teve vários formatos, incluindo pontos corridos e fase eliminatória. Desde 2003, os sistemas de disputa, assim como as regras e o número de participantes, seguem padronizados. Atualmente, cada temporada decorre entre maio e dezembro – a Série A 2015 acontece entre 10 de maio e 6 de dezembro.</p>
+
+                <p class="lead text-justify">O regulamento segue o mesmo padrão dos anos anteriores: são 38 rodadas com dez jogos em cada (380 partidas no total); a maioria dos jogos são disputados nos sábados e domingos no período da tarde e algumas vezes no meio da semana durante a noite; todos os times jogam entre si no sistema ida-volta, ou seja, são dois turnos; no total 20 equipes brigam pelo título nacional – é declarado campeão o clube que obtiver o maior número de pontos após a última rodada.</p>
+                
+                <p class="lead text-justify">Na edição passada caíram para a Série B: Vitória, Bahia, Botafogo e Criciúma. As quatro vagas foram preenchidas pelos clubes: Vasco, Avaí, Joinville e Ponte Preta.</p>
+                
+                <p class="lead text-justify">Na história dos pontos corridos, a edição de 2015 será a que contará com menos clubes nordestinos – somente o Sport representará a região. Já Santa Catarina contará com o seu maior número de participantes, 4 no total: Chapecoense, Figueirense, Avaí e Joinville.</p>
+                
+                <p class="lead text-justify">Em 2015, a seleção brasileira voltará a disputar as eliminatórias da América do Sul para a Copa do Mundo de 2018. O calendário da Série A não prevê rodadas quando a equipe canarinha estiver em campo. Quanto a Copa América de 2015, que será realizada no Chile entre 11 de junho e 4 de julho, o Brasileirão, assim como a Série B, não sofrerá pausas. </p>
             </div>
-            <h2 class="gui-text-section-title tabela-header-titulo">Tabela</h2></header>
-            <div class="tabela tabela-sem-jogos-por-grupo">
-                <table class="tabela-times">
-                    <colgroup>
-                        <col class="tabela-times-col-posicao">
-                            <col class="tabela-times-col-time">
-                                <col class="tabela-times-col-variacao">
-                    </colgroup>
-                    <thead>
-                        <tr class="tabela-head-linha">
-                            <th class="tabela-times-head" colspan="3">Classificação</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#0000ff;">1</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/atletico-pr/" title="Atlético-PR" alt="Atlético-PR" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Atlético-PR</strong><span class="tabela-times-time-sigla">CAP</span></a></td>
-                            <td class="tabela-times-variacao"><span>4</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#0000ff;">2</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/sport/" title="Sport" alt="Sport" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Sport</strong><span class="tabela-times-time-sigla">SPO</span></a></td>
-                            <td class="tabela-times-variacao"><span>1</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#0000ff;">3</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/ponte-preta/" title="Ponte Preta" alt="Ponte Preta" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Ponte Preta</strong><span class="tabela-times-time-sigla">PON</span></a></td>
-                            <td class="tabela-times-variacao"><span>4</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#0000ff;">4</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/goias/" title="Goiás" alt="Goiás" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Goiás</strong><span class="tabela-times-time-sigla">GOI</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">5</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/atletico-mg/" title="Atlético-MG" alt="Atlético-MG" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Atlético-MG</strong><span class="tabela-times-time-sigla">CAM</span></a></td>
-                            <td class="tabela-times-variacao"><span>3</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">6</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/sao-paulo/" title="São Paulo" alt="São Paulo" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">São Paulo</strong><span class="tabela-times-time-sigla">SAO</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">7</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/avai/" title="Avaí" alt="Avaí" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Avaí</strong><span class="tabela-times-time-sigla">AVA</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">8</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/corinthians/" title="Corinthians" alt="Corinthians" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Corinthians</strong><span class="tabela-times-time-sigla">COR</span></a></td>
-                            <td class="tabela-times-variacao"><span>5</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">9</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/fluminense/" title="Fluminense" alt="Fluminense" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Fluminense</strong><span class="tabela-times-time-sigla">FLU</span></a></td>
-                            <td class="tabela-times-variacao"><span>3</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">10</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/sc/futebol/times/chapecoense/" title="Chapecoense" alt="Chapecoense" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Chapecoense</strong><span class="tabela-times-time-sigla">CHA</span></a></td>
-                            <td class="tabela-times-variacao"><span>4</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">11</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/palmeiras/" title="Palmeiras" alt="Palmeiras" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Palmeiras</strong><span class="tabela-times-time-sigla">PAL</span></a></td>
-                            <td class="tabela-times-variacao"><span>5</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">12</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/santos/" title="Santos" alt="Santos" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Santos</strong><span class="tabela-times-time-sigla">SAN</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">13</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/gremio/" title="Grêmio" alt="Grêmio" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Grêmio</strong><span class="tabela-times-time-sigla">GRE</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">14</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/internacional/" title="Internacional" alt="Internacional" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Internacional</strong><span class="tabela-times-time-sigla">INT</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">15</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/figueirense/" title="Figueirense" alt="Figueirense" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Figueirense</strong><span class="tabela-times-time-sigla">FIG</span></a></td>
-                            <td class="tabela-times-variacao"><span>4</span><span class="tabela-icone tabela-icone-positiva"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao">16</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/coritiba/" title="Coritiba" alt="Coritiba" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Coritiba</strong><span class="tabela-times-time-sigla">CFC</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#ff0000;">17</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/vasco/" title="Vasco" alt="Vasco" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Vasco</strong><span class="tabela-times-time-sigla">VAS</span></a></td>
-                            <td class="tabela-times-variacao"><span>2</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#ff0000;">18</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/flamengo/" title="Flamengo" alt="Flamengo" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Flamengo</strong><span class="tabela-times-time-sigla">FLA</span></a></td>
-                            <td class="tabela-times-variacao"><span>1</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#ff0000;">19</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/cruzeiro/" title="Cruzeiro" alt="Cruzeiro" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Cruzeiro</strong><span class="tabela-times-time-sigla">CRU</span></a></td>
-                            <td class="tabela-times-variacao"><span>1</span><span class="tabela-icone tabela-icone-negativa"></span></td>
-                        </tr>
-                        <tr class="tabela-body-linha">
-                            <td class="tabela-times-posicao" style="color:#ff0000;">20</td>
-                            <td class="tabela-times-time" itemprop="performer" itemscope="" itemtype="http://schema.org/SportsTeam"><a class="tabela-times-time-link" href="http://globoesporte.globo.com/futebol/times/joinville/" title="Joinville" alt="Joinville" itemprop="url"><strong class="tabela-times-time-nome" itemprop="name">Joinville</strong><span class="tabela-times-time-sigla">JEC</span></a></td>
-                            <td class="tabela-times-variacao"><span>0</span><span class="tabela-icone tabela-icone-neutra"></span></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div style="opacity: 1; padding-left: 250px;" class="tabela-scroll overthrow">
-                    <table class="tabela-pontos">
-                        <thead>
-                            <tr class="tabela-head-linha">
-                                <th>P</th>
-                                <th>J</th>
-                                <th>V</th>
-                                <th>E</th>
-                                <th>D</th>
-                                <th class="tabela-pontos-th-duplo">GP</th>
-                                <th class="tabela-pontos-th-duplo">GC</th>
-                                <th class="tabela-pontos-th-duplo">SG</th>
-                                <th>%</th>
-                                <th class="tabela-pontos-th-longo">ÚLT. JOGOS</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">9</td>
-                                <td>4</td>
-                                <td>3</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>6</td>
-                                <td>3</td>
-                                <td>3</td>
-                                <td>75.0</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">8</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>9</td>
-                                <td>5</td>
-                                <td>4</td>
-                                <td>66.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">8</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>8</td>
-                                <td>5</td>
-                                <td>3</td>
-                                <td>66.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">8</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>66.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">7</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>9</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>58.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">7</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>58.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">7</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>58.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">7</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>58.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">7</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>-1</td>
-                                <td>58.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">6</td>
-                                <td>4</td>
-                                <td>2</td>
-                                <td>0</td>
-                                <td>2</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>-1</td>
-                                <td>50.0</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>4</td>
-                                <td>3</td>
-                                <td>1</td>
-                                <td>41.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>4</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>41.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>5</td>
-                                <td>6</td>
-                                <td>-1</td>
-                                <td>41.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">5</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>4</td>
-                                <td>-2</td>
-                                <td>41.7</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">4</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>2</td>
-                                <td>3</td>
-                                <td>6</td>
-                                <td>-3</td>
-                                <td>33.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">3</td>
-                                <td>4</td>
-                                <td>1</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>4</td>
-                                <td>5</td>
-                                <td>-1</td>
-                                <td>25.0</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-v"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">3</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>3</td>
-                                <td>1</td>
-                                <td>1</td>
-                                <td>4</td>
-                                <td>-3</td>
-                                <td>25.0</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">1</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>6</td>
-                                <td>9</td>
-                                <td>-3</td>
-                                <td>8.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">1</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>2</td>
-                                <td>5</td>
-                                <td>-3</td>
-                                <td>8.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                            <tr class="tabela-body-linha">
-                                <td class="tabela-pontos-ponto">1</td>
-                                <td>4</td>
-                                <td>0</td>
-                                <td>1</td>
-                                <td>3</td>
-                                <td>1</td>
-                                <td>6</td>
-                                <td>-5</td>
-                                <td>8.3</td>
-                                <td class="tabela-pontos-ultimos-jogos"><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-e"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span><span class="tabela-icone tabela-icone-circulo tabela-icone-d"></span></td>
-                            </tr>
-                        </tbody>
-                    </table>
+            <div class="divider"></div>
+            <div class="page-header text-center">
+                <h1>Campeonato Brasileiro 2015</h1>
+                <ul style="color:green" class="nav nav-pills nav-justified green">
+                    <li  class="active"><a href="#tab1" data-toggle="tab">Série A</a></li>
+                    <li><a href="#tab2" data-toggle="tab">Série B</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane" id="tab1">
+                        <div style="border-spacing: 10px 10px" class="tbnet-gadget div-p1">
+                        <h2>Zona de classificação</h2>
+                        <div id="tbnet-g4">Carregando...</div>
+                        <script async src="http://gadgetsparablog.com/ws/tabeladobrasileirao/script?funcao=g4&campeonato=serie-a" type="text/javascript"></script>
+                        </div>
+
+                        <div style="border-spacing: 10px 10px"class="tbnet-gadget div-p2">
+                        <h2>Zona de rebaixamento</h2>
+                        <div id="tbnet-z4">Carregando...</div>
+                        <a id="tbnet-link" href="http://www.tabeladobrasileirao.net/" target="_blank" class="tbnet-link" title="Campeonato Brasileiro">Campeonato Brasileiro</a>
+                        <script async src="http://gadgetsparablog.com/ws/tabeladobrasileirao/script?funcao=z4&campeonato=serie-a" type="text/javascript"></script>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="tab2">
+                        <div style="border-spacing: 10px 10px" class="tbnet-gadget div-p1">
+                        <h2>Zona de classificação</h2>
+                        <div id="tbnet-g4">Carregando...</div><a id="tbnet-link" href="http://www.tabeladobrasileirao.net/" target="_blank" class="tbnet-link" title="Série B">Série B</a><script async src="http://gadgetsparablog.com/ws/tabeladobrasileirao/script?funcao=g4&campeonato=serie-b" type="text/javascript"></script></div>
+
+                        <div style="border-spacing: 10px 10px"class="tbnet-gadget div-p2">
+                        <h2>Zona de rebaixamento</h2>
+                        <div id="tbnet-z4">Carregando...</div><a id="tbnet-link" href="http://www.tabeladobrasileirao.net/" target="_blank" class="tbnet-link" title="Série B">Série B</a><script async src="http://gadgetsparablog.com/ws/tabeladobrasileirao/script?funcao=z4&campeonato=serie-b" type="text/javascript"></script></div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </section>
-            <div class="divider"></div>
         </div>
     </div>
     <div class="divider"></div>
@@ -510,6 +177,25 @@
         interval: 5000 //changes the speed
     })
     </script>
+    
+
+    <script type="text/javascript">
+
+    $(document).ready(function(){
+
+        $("#myTab a").click(function(e){
+
+            e.preventDefault();
+
+            $(this).tab('show');
+
+        });
+
+    });
+
+    </script>
+
+
 </body>
 
 </html>
