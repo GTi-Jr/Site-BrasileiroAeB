@@ -14,6 +14,7 @@
     <link href="css/half-slider.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link href="css/freelancer.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -41,7 +42,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#section1">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Times<span class="caret"></span></a>
@@ -52,7 +53,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">Memorial</a>
+                        <a href="memorial.html">Memorial</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Competições<span class="caret"></span></a>
@@ -75,6 +76,7 @@
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
@@ -98,12 +100,19 @@
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill"><img class="fill" src="img/slide/estadio-vazio.jpg"></div>
                     <div class="carousel-caption">
-                    <h2>Brasileirão: o maior e o menor público</h2>
-                    <p style="float:left">Se o seu palpite para o menor público é algum jogo do São Caetano, voce errou. Em 1997, no Rio Grande do Sul, Juventude e Portuguesa passaram pela vergonha de jogar no estádio Olímpico para apenas 55 torcedores, enquanto 155.523 flamenguistas e santistas tiveram a oportunidade de acompanhar a decisao do Brasileirao de 1983, disputada pelas duas equipes no Maracanã: o maior publico do campeonato nacional.</p>
+                    <h2 id="slide-text">Brasileirão: o maior e o menor público</h2>
+                    <p id="slide-text">Se o seu palpite para o menor público é algum jogo do São Caetano, voce errou. Em 1997, no Rio Grande do Sul, Juventude e Portuguesa passaram pela vergonha de jogar no estádio Olímpico para apenas 55 torcedores, enquanto 155.523 flamenguistas e santistas tiveram a oportunidade de acompanhar a decisao do Brasileirao de 1983, disputada pelas duas equipes no Maracanã: o maior publico do campeonato nacional.</p>
+                </div>
+            </div>
+            <div class="logo" id="slide-text">Memórias do Brasileirão</div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill"><img class="fill" src="img/slide/campeonato-brasileiro-1994.jpg"></div>
+                    <div class="carousel-caption">
+                    <h2><a id="slide-text" style="text-decoration:none" href="memorial.html">Para saber mais...</a></h2>
                 </div>
             </div>
         </div>
-        <div class="logo" id="slide-text">Você sabia...</div>
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
@@ -127,6 +136,7 @@
                 <p class="lead text-justify">Na história dos pontos corridos, a edição de 2015 será a que contará com menos clubes nordestinos – somente o Sport representará a região. Já Santa Catarina contará com o seu maior número de participantes, 4 no total: Chapecoense, Figueirense, Avaí e Joinville.</p>
                 
                 <p class="lead text-justify">Em 2015, a seleção brasileira voltará a disputar as eliminatórias da América do Sul para a Copa do Mundo de 2018. O calendário da Série A não prevê rodadas quando a equipe canarinha estiver em campo. Quanto a Copa América de 2015, que será realizada no Chile entre 11 de junho e 4 de julho, o Brasileirão, assim como a Série B, não sofrerá pausas. </p>
+            <div class="divider"></div>
             </div>
                 <div class="row">
                 <div class="col-sm-4 portfolio-item">
@@ -136,7 +146,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/campeonato_brasileiro_serie_a.jpg" class="img-responsive" alt="">
+                        <img src="img/campeonato_brasileiro_serie_a.jpg" class="img-responsive img-port" alt="">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -146,17 +156,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/campeonato_brasileiro_serie_b.jpg" class="img-responsive" alt="timeB.html">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                        <img src="img/campeonato_brasileiro_serie_b.jpg" class="img-responsive img-port" alt="timeB.html">
                     </a>
                 </div>
             </div>
@@ -164,7 +164,7 @@
             <div class="page-header text-center">
                 <h1>Campeonato Brasileiro 2015</h1>
                 <ul style="color:green" class="nav nav-pills nav-justified green">
-                    <li  class="active"><a href="#tab1" data-toggle="tab">Série A</a></li>
+                    <li><a href="#tab1" data-toggle="tab">Série A</a></li>
                     <li><a href="#tab2" data-toggle="tab">Série B</a></li>
                 </ul>
                 <div class="tab-content">
@@ -208,7 +208,7 @@
     <!-- Script to Activate the Carousel -->
     <script>
     $('.carousel').carousel({
-        interval: 7000 //changes the speed
+        interval: 10000 //changes the speed
     })
     </script>
     
