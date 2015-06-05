@@ -66,10 +66,12 @@ footer {
 .div-p1{
   float: left;
   width: 50%;
+  border:2px green solid; 
 } 
 .div-p2{
   float:right;
   width: 50%;
+  border:2px green solid; 
 }
 .green .active a,
 .green .active a:hover {
