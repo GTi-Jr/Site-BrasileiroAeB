@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#section1">Home</a>
+                        <a href="index2.html">Home</a>
                     </li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Times<span class="caret"></span></a>
@@ -72,9 +72,10 @@
     <header id="myCarousel" class="carousel slide">
         <!-- Indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="0"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3" class="active"></li>
         </ol>
         <!-- Wrapper for Slides -->
         <div class="carousel-inner">
@@ -98,12 +99,19 @@
                 <!-- Set the third background image using inline CSS below. -->
                 <div class="fill"><img class="fill" src="img/slide/estadio-vazio.jpg"></div>
                     <div class="carousel-caption">
-                    <h2>Brasileirão: o maior e o menor público</h2>
-                    <p style="float:left">Se o seu palpite para o menor público é algum jogo do São Caetano, voce errou. Em 1997, no Rio Grande do Sul, Juventude e Portuguesa passaram pela vergonha de jogar no estádio Olímpico para apenas 55 torcedores, enquanto 155.523 flamenguistas e santistas tiveram a oportunidade de acompanhar a decisao do Brasileirao de 1983, disputada pelas duas equipes no Maracanã: o maior publico do campeonato nacional.</p>
+                    <h2 id="slide-text">Brasileirão: o maior e o menor público</h2>
+                    <p id="slide-text">Se o seu palpite para o menor público é algum jogo do São Caetano, voce errou. Em 1997, no Rio Grande do Sul, Juventude e Portuguesa passaram pela vergonha de jogar no estádio Olímpico para apenas 55 torcedores, enquanto 155.523 flamenguistas e santistas tiveram a oportunidade de acompanhar a decisao do Brasileirao de 1983, disputada pelas duas equipes no Maracanã: o maior publico do campeonato nacional.</p>
+                </div>
+            </div>
+            <div class="logo" id="slide-text">Memórias do Brasileirão</div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill"><img class="fill" src="img/slide/campeonato-brasileiro-1994.jpg"></div>
+                    <div class="carousel-caption">
+                    <h2><a id="slide-text" style="text-decoration:none" href="memorial.html">Para saber mais...</a></h2>
                 </div>
             </div>
         </div>
-        <div class="logo" id="slide-text">Você sabia...</div>
         <!-- Controls -->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="icon-prev"></span>
